@@ -45,7 +45,7 @@ const Stopwatch: React.FC = () => {
   };
 
   const formatTime = () => {
-    //Function to formate time 
+    //Function to formate time slicing 
     const getSeconds = `0${(timer % 60)}`.slice(-2);
     const minutes = Number(`${Math.floor(timer / 60)}`);
     const getMinutes = `0${minutes % 60}`.slice(-2);
